@@ -11,7 +11,7 @@ import { OfertaService } from '../oferta.service';
 })
 export class HomeComponent implements OnInit {
 
-  public ofertas: Oferta[] | undefined
+  public ofertas: Oferta[] | undefined;
 
   constructor(private ofertaService: OfertaService) { }
 

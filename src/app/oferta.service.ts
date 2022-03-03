@@ -1,7 +1,7 @@
 import { Oferta } from "./shared/oferta.model";
 export class OfertaService {
 
-public ofertas: Oferta = [
+public ofertas: Oferta [] = [
     {
       id: 1,
       categoria: "restaurante",
@@ -11,10 +11,10 @@ public ofertas: Oferta = [
       valor: 29.90,
       destaque: true,
       imagens: [
-        {url: "/assets/ofertas/1/img1.jpg"},
-        {url: "/assets/ofertas/1/img2.jpg"},
-        {url: "/assets/ofertas/1/img3.jpg"},
-        {url: "/assets/ofertas/1/img4.jpg"}
+       // {url: "/assets/ofertas/1/img1.jpg"},
+       // {url: "/assets/ofertas/1/img2.jpg"},
+      //  {url: "/assets/ofertas/1/img3.jpg"},
+       // {url: "/assets/ofertas/1/img4.jpg"}
       ]
     },
     {
@@ -26,10 +26,10 @@ public ofertas: Oferta = [
       valor: 32.90,
       destaque: true,
       imagens: [
-        {url: "/assets/ofertas/2/img1.jpg"},
-        {url: "/assets/ofertas/2/img2.jpg"},
-        {url: "/assets/ofertas/2/img3.jpg"},
-        {url: "/assets/ofertas/2/img4.jpg"}
+      //  {url: "/assets/ofertas/2/img1.jpg"},
+       // {url: "/assets/ofertas/2/img2.jpg"},
+       // {url: "/assets/ofertas/2/img3.jpg"},
+       // {url: "/assets/ofertas/2/img4.jpg"}
       ]
 
     },
@@ -42,12 +42,12 @@ public ofertas: Oferta = [
       valor: 31.90,
       destaque: true,
       imagens: [
-        {url: "/assets/ofertas/3/img1.jpg"},
-        {url: "/assets/ofertas/3/img2.jpg"},
-        {url: "/assets/ofertas/3/img3.jpg"},
-        {url: "/assets/ofertas/3/img4.jpg"},
-        {url: "/assets/ofertas/3/img5.jpg"},
-        {url: "/assets/ofertas/3/img6.jpg"}
+      //  {url: "/assets/ofertas/3/img1.jpg"},
+       // {url: "/assets/ofertas/3/img2.jpg"},
+      //  {url: "/assets/ofertas/3/img3.jpg"},
+      //  {url: "/assets/ofertas/3/img4.jpg"},
+     //   {url: "/assets/ofertas/3/img5.jpg"},
+      //  {url: "/assets/ofertas/3/img6.jpg"}
       ]
     }
   ]
