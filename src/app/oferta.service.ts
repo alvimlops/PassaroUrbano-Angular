@@ -1,3 +1,4 @@
+import { rejects } from "assert";
 import { Oferta } from "./shared/oferta.model";
 export class OfertaService {
 
@@ -56,5 +57,12 @@ public ofertas: Oferta [] = [
 
   public getOfertas(): Array<Oferta> {
     return this.ofertas;
+  }
+
+  public getOfertas2(): Promise<Oferta[]>{
+    return new Promise((resolve, rejects) => {
+      //algum tipo de processamento, que ao finalizar chama a função resolve
+      resolve(this.ofertas)
+    })
   }
 }
